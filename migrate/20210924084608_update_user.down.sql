@@ -1,0 +1,2 @@
+ALTER TABLE user DROP COLUMN `age`;
+ALTER TABLE user DROP COLUMN `sex`;
