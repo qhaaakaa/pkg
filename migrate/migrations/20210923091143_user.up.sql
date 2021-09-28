@@ -5,5 +5,3 @@ CREATE TABLE `user` (
   `createtime` int(10) NOT NULL DEFAULT '0' COMMENT '创建时间',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-INSERT INTO user (username, password) VALUES ("张三","123456" );
